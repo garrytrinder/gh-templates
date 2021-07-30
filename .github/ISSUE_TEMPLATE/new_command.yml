@@ -11,7 +11,10 @@ body:
     id: usage
     attributes:
       label: Usage
-      description: How will this command be executed? Commands should follow a pattern of service entity verb. Verbs include get, set, remove, add, list.
+      description: |
+        How will this command be executed?
+        
+        Commands should follow a pattern of `service` `entity` `verb`. Verbs include `get`, `set`, `remove`, `add`, `list`.
       placeholder: i.e. m365 spo web get [options]
     validations:
       required: true
