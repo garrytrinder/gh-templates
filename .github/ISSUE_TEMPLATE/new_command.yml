@@ -8,10 +8,10 @@ body:
       value: |
         Thanks for taking the time to fill out this new command specification!
   - type: input
-    id: contact
+    id: usage
     attributes:
       label: Usage
-      description: How will this command be executed? Commands should follow a pattern of `service` `entity` `verb`. Verbs include `get`, `set`, `remove`, `add`, `list`.
-      placeholder: `i.e. m365 spo web get [options]`
+      description: How will this command be executed? Commands should follow a pattern of service entity verb. Verbs include get, set, remove, add, list.
+      placeholder: i.e. m365 spo web get [options]
     validations:
       required: true
