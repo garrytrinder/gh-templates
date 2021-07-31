@@ -54,7 +54,7 @@ body:
       description: |
         Provide the version of the CLI you are using
         
-        Use `m365 cli version` to identify your version
+        Execute `m365 cli version` in your terminal to identify your version
     validations:
       required: true
   - type: input
@@ -64,7 +64,7 @@ body:
       description: |
         Provide the version of nodejs you are using
         
-        Use `node -v` to identify your version
+        Execute `node -v` in your terminal to identify your version
     validations:
       required: true   
   - type: dropdown
