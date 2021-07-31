@@ -37,7 +37,7 @@ body:
         Complete the table below with the options used on this command. 
         
         A short (single character) and long version of the option should be provided along with `[optional]` or `<required>` parameters.
-      placeholder: |
+      value: |
         Option | Description  
         -- | --
         `-i, --teamId <teamId>` | The Id of the Microsoft Team
