@@ -20,3 +20,12 @@ body:
       placeholder: e.g. m365 spo web get [options]
     validations:
       required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Provide a short description of what the command does?
+      placeholder: e.g. Retrieve information about the specified site
+    validations:
+      required: true
