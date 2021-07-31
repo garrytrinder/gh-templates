@@ -13,8 +13,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: |
-        Provide a short description of the issue you are facing
+      description: Provide a short description of the issue you are facing
     validations:
       required: true
   - type: textarea
@@ -43,12 +42,12 @@ body:
       attributes:
         label: Debug output
         description: |
-          Provide the output from the command when using the `--debug` option.
+          Provide the output from the command when using the `--debug` option
           
-          *IMPORTANT: You should be careful to sanitise any sensitive output such as tenant information and access tokens before sharing the output.*
+          *IMPORTANT: You should be careful to sanitise any sensitive output such as tenant information and access tokens before sharing the output*
       validations:
         required: false
-- type: input
+  - type: input
       id: version
       attributes:
         label: Provide the version of the CLI you are using
@@ -88,4 +87,3 @@ body:
           Provide any additional information that may help with the identification of the root cause of this issue
       validations:
         required: false
-
