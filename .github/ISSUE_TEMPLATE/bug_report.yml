@@ -1,7 +1,7 @@
 name: Bug report
 description: Let us know about functionality that is not working as expected
 title: "Bug report: <short description>"
-labels: [question]
+labels: [bug]
 body:
   - type: markdown
     attributes:
@@ -38,3 +38,54 @@ body:
       description: Provide a description of what actually happens
     validations:
       required: true
+  - type: textarea
+      id: debug
+      attributes:
+        label: Debug output
+        description: |
+          Provide the output from the command when using the `--debug` option.
+          
+          *IMPORTANT: You should be careful to sanitise any sensitive output such as tenant information and access tokens before sharing the output.*
+      validations:
+        required: false
+- type: input
+      id: version
+      attributes:
+        label: Provide the version of the CLI you are using
+        description: Use `m365 cli version` to identify your version
+      validations:
+        required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Provide the operating system that you are using
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+      id: shell
+      attributes:
+        label: Provide the shell that you are using
+        options:
+          - PowerShell
+          - Windows PowerShell
+          - cmd
+          - bash
+          - zsh
+          - Azure Cloud Shell
+          - Other
+      validations:
+        required: true
+  - type: textarea
+      id: info
+      attributes:
+        label: Additional Info
+        description: |
+          Provide any additional information that may help with the identification of the root cause of this issue
+      validations:
+        required: false
+
