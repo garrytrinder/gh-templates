@@ -18,7 +18,7 @@ body:
         
         Commands should follow a pattern of `service` `entity` `verb`. 
         
-        Approved verbs include `get`, `set`, `remove`, `add`, `list`.
+        Approved verbs include `get`, `set`, `remove`, `add` and `list`.
       placeholder: e.g. m365 spo web get [options]
     validations:
       required: true
