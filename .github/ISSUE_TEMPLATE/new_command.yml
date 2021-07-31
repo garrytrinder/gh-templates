@@ -42,5 +42,6 @@ body:
         -- | --
         `-i, --teamId <teamId>` | The Id of the Microsoft Team
         `-r, --role [role]` | Filter the results to only users with the given role: `Owner` or `Member`.
+      render: md
     validations:
       required: true
