@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this new command specification!
+        Thank you for suggesting a new command to be added to this project. Please complete the below template to ensure we have the necessary details to assist you.
   - type: input
     id: usage
     attributes:
       label: Usage
       description: |
-        How will this command be executed in the terminal?
+        This should describe how the command will be used.
         
         Commands should follow a pattern of `service` `entity` `verb`. 
         
@@ -25,7 +25,7 @@ body:
     attributes:
       label: Description
       description: |
-        Provide a short description of what the command does?
+        Provide a short description of what the command does
       placeholder: e.g. Retrieve information about the specified site
     validations:
       required: true
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Options
       description: |
-        Complete the table below with the options used on this command. 
+        Amend and complete the table below with the options used on this command.
         
         A short (single character) and long version of the option should be provided along with `[optional]` or `<required>` parameters.
       value: |
