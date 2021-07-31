@@ -40,23 +40,33 @@ body:
   - type: textarea
     id: debug
     attributes:
-      label: Debug output
+      label: Diagnostics
       description: |
         Provide the output from the command when using the `--debug` option
 
-        *IMPORTANT: You should be careful to sanitise any sensitive output such as tenant information and access tokens before sharing the output*
+        *IMPORTANT: You should be careful to sanitise any sensitive output such as tenant information and access tokens before sharing*
     validations:
       required: false
   - type: input
-    id: version
+    id: cliversion
     attributes:
-      label: CLI Version
+      label: CLI for Microsoft 365 version
       description: |
         Provide the version of the CLI you are using
         
         Use `m365 cli version` to identify your version
     validations:
       required: true
+  - type: input
+    id: nodeversion
+    attributes:
+      label: nodejs version
+      description: |
+        Provide the version of nodejs you are using
+        
+        Use `node -v` to identify your version
+    validations:
+      required: true   
   - type: dropdown
     id: os
     attributes:
