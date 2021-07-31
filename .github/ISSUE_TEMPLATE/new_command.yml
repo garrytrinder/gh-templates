@@ -20,7 +20,7 @@ body:
       placeholder: e.g. m365 spo web get [options]
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: description
     attributes:
       label: Description
