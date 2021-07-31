@@ -29,3 +29,18 @@ body:
       placeholder: e.g. Retrieve information about the specified site
     validations:
       required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: |
+        Complete the table below with the options used on this command. 
+        
+        A short (single character) and long version of the option should be provided along with `[optional]` or `<required>` parameters.
+      placeholder: |
+        Option | Description  
+        -- | --
+        `-i, --teamId <teamId>` | The Id of the Microsoft Team
+        `-r, --role [role]` | Filter the results to only users with the given role: `Owner` or `Member`.
+    validations:
+      required: true
