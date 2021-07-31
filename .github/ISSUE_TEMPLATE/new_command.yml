@@ -1,5 +1,5 @@
-name: New Command
-description: Create a specification for a new command to add to the CLI
+name: New command
+description: Create a specification for a new command
 title: "New command: <short description>"
 labels: [new feature]
 body:
@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for suggesting a new command to be added to this project.
         
-        Please complete the below template to ensure we have the necessary details to assist you.
+        Please complete the below template to ensure we have the necessary details.
   - type: input
     id: usage
     attributes:
@@ -36,11 +36,11 @@ body:
     attributes:
       label: Options
       description: |
-        Amend and complete the table below to describe the options that are to be implemented on this this command, a description and its expected behaviour when used
+        Amend and complete the table below to describe the options that are to be implemented on this this command.
         
         You should provide a long version, e.g. `--teamId`, and where possible provide a short option, e.g. `-i`, as the option name. 
         
-        Take care to avoid using options which conflict with global options, i.e. `-h`, `--help`, `-o`, `--output`, `--debug`, `--verbose`
+        Take care to avoid using option names which conflict with global options, such as `-h`, `--help`, `-o`, `--output`, `--debug` and `--verbose`
         
         Use `<>` to denote a required option and `[]` to denote an optional option.
       value: |
