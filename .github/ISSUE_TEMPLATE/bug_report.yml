@@ -50,14 +50,18 @@ body:
   - type: input
     id: version
     attributes:
-      label: Provide the version of the CLI you are using
-      description: Use `m365 cli version` to identify your version
+      label: CLI Version
+      description: |
+        Provide the version of the CLI you are using
+        
+        Use `m365 cli version` to identify your version
     validations:
       required: true
   - type: dropdown
     id: os
     attributes:
-      label: Provide the operating system that you are using
+      label: Operating System
+      description: Provide the operating system that you are using
       options:
         - Windows
         - macOS
@@ -68,7 +72,8 @@ body:
   - type: dropdown
     id: shell
     attributes:
-      label: Provide the shell that you are using
+      label: Shell
+      description: Provide the shell that you are using
       options:
         - PowerShell
         - Windows PowerShell
