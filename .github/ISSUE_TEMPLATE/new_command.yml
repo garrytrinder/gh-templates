@@ -36,9 +36,13 @@ body:
     attributes:
       label: Options
       description: |
-        Amend and complete the table below with the options used on this command.
+        Amend and complete the table below to describe the options that are to be implemented on this this command, a description and its expected behaviour when used
         
-        A short (single character) and long version of the option should be provided along with `[optional]` or `<required>` parameters.
+        You should provide a long version, e.g. `--teamId`, and where possible provide a short option, e.g. `-i`, as the option name. 
+        
+        Take care to avoid using options which conflict with global options, i.e. `-h`, `--help`, `-o`, `--output`, `--debug`, `--verbose`
+        
+        Use `<>` to denote a required option and `[]` to denote an optional option.
       value: |
         Option | Description
         -- | --
