@@ -9,7 +9,7 @@ body:
         Thank you for reporting the issue you are facing.
         
         Please complete the below form to ensure we have the necessary details to assist you.
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Description
