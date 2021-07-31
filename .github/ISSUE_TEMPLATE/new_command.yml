@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting a new command to be added to this project. Please complete the below template to ensure we have the necessary details to assist you.
+        Thank you for suggesting a new command to be added to this project.
+        
+        Please complete the below template to ensure we have the necessary details to assist you.
   - type: input
     id: usage
     attributes:
