@@ -1,7 +1,6 @@
 name: New command
 description: Create a specification for a new command
 title: "New command: <short description>"
-labels: [new feature]
 body:
   - type: markdown
     attributes:
