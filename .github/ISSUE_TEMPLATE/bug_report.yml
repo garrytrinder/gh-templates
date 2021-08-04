@@ -95,6 +95,16 @@ body:
     validations:
       required: true
   - type: textarea
+    id: doctor
+    attributes:
+      label: cli doctor
+      description: |
+        Provide the output of the `cli doctor` command
+        
+        *NOTE: You must be using v3.12 or higher to use the `m365 cli doctor` command*
+    validations:
+      required: false
+  - type: textarea
     id: info
     attributes:
       label: Additional Info
