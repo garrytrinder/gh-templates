@@ -2,6 +2,17 @@ name: Bug report
 description: Let us know about functionality that is not working as expected
 title: "Bug report: <short description>"
 body:
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Let us know how this bug is affecting you.
+      options:
+        - (Low) Something is a little off
+        - (Medium) I'm annoyed but i'll live
+        - (Urgent) I can't use the CLI
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
